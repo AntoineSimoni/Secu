@@ -64,3 +64,20 @@ L'image contenait un texte caché étant donc le flag.
 
 ## 4 . Find Patrick's password
 ALEX LE BOSS
+
+
+## 5 . Disrupt me
+
+`http://ctf-labo.cyber-stuff.net/disrupt-me/hydtjtcj` 
+
+affiche le message :
+
+`Sorry, flask is not ready to be disrupted !`
+
+Ce message indique que le site utilise du flask
+
+donc sur internet on a trouvé un petit tuto
+
+`https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Template%20injections`
+
+<img src="/images/image.png" alt="Soluce/>
