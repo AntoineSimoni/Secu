@@ -61,3 +61,6 @@ le decodage nous donne l'adresse d'un fichier exe qui est en faite un .txt conte
 Cette fois si, c'est plutôt simple, il suffit de télécharger l'image et de l'upload sur ce site : 
 `https://incoherency.co.uk/image-steganography/#unhide`
 L'image contenait un texte caché étant donc le flag.
+
+## 4 . Find Patrick's password
+ALEX LE BOSS
