@@ -1,5 +1,5 @@
 # Secu
-### 1 . Upload_medium
+## 1 . Upload_medium
 Il faut tout d'abord créer un fichier en `.php` comme par exemple, `payload.php`.
 Ce dossier devra contenir les lignes suivantes :
 ```
@@ -36,7 +36,7 @@ ensuite, nous remplaçons `ls -la` (ls%20-la) par `cat%20` et on rajoute a la fi
 
 
 
-* 2 . The DSI's yellow usb key
+### 2 . The DSI's yellow usb key
 
 Le rubber ducky hack, est donc un fichier intégré a une clef USB qui tape des commandes a notre place, ce qui permet de rapidement pirater une session laissée ouverte.
 
