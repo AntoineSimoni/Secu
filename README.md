@@ -1,5 +1,5 @@
 # Secu
-*   1 . Upload_medium
+* 1 . Upload_medium
 Il faut tout d'abord créer un fichier en `.php` comme par exemple, `payload.php`.
 Ce dossier devra contenir les lignes suivantes :
 ```
@@ -51,3 +51,10 @@ et ensuite, nous utilisons un site afin de décoder le fichier inject.bin :
 `https://ducktoolkit.com/decoder/`
 
 le decodage nous donne l'adresse d'un fichier exe qui est en faite un .txt contenant le flag
+
+
+* 3 . I Lowe runnig
+
+Cette fois si, c'est plutôt simple, il suffit de télécharger l'image et de l'upload sur ce site : 
+`https://incoherency.co.uk/image-steganography/#unhide`
+L'image contenait un texte caché étant donc le flag.
