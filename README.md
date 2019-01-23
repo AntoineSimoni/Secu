@@ -1,7 +1,7 @@
 # Secu
 ## 1 . Upload_medium
 
-* A. 
+### A. 
 Il faut tout d'abord créer un fichier en `.php` comme par exemple, `payload.php`.
 Ce dossier devra contenir les lignes suivantes :
 ```
@@ -17,7 +17,7 @@ par :
 Il faut ensuite appuyer sur forward dans Burp.
 et enfin désactiver notre proxy.
 
-* B.
+### B.
 On arrive sur la partie délicate, il faut ouvrir le fichier étant apparu sur la page.
 Grace au php, nous avons accès au cmd depuis le lien du site, il suffit de le modifier un peu:
 `http://ctf-labo.cyber-stuff.net/upload_medium/uploads/test.php?cmd=`
