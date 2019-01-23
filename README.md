@@ -36,12 +36,18 @@ ensuite, nous remplaçons `ls -la` (ls%20-la) par `cat%20` et on rajoute a la fi
 
 
 
+* 2 . The DSI's yellow usb key
 
+Le rubber ducky hack, est donc un fichier intégré a une clef USB qui tape des commandes a notre place, ce qui permet de rapidement pirater une session laissée ouverte.
 
+Donc une fois le fichier donné téléchargé, il faut d'abord le décomprésser (comme Winrar ou 7-zip)
 
+et vous optenez un fichier `.dd`
 
-rubber ducky hack
-file dump.dd
+Sous mac, il suffit d'entrer la commande 
+`hdiutil attach -imagekey diskimage-class=CRawDiskImage dump.dd`
+se qui nous donne un fichier `inject.bin`
+et ensuite, nous utilisons un site afin de décoder le fichier inject.bin : 
+`https://ducktoolkit.com/decoder/`
 
-how to mount dd file
-hdiutil attach -imagekey diskimage-class=CRawDiskImage dump.dd
+le decodage nous donne l'adresse d'un fichier exe qui est en faite un .txt contenant le flag
