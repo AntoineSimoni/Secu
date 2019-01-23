@@ -1,6 +1,7 @@
 # Secu
 ## 1 . Upload_medium
-Il faut tout d'abord créer un fichier en `.php` comme par exemple, `payload.php`.
+
+* Il faut tout d'abord créer un fichier en `.php` comme par exemple, `payload.php`.
 Ce dossier devra contenir les lignes suivantes :
 ```
 <?php
@@ -36,7 +37,7 @@ ensuite, nous remplaçons `ls -la` (ls%20-la) par `cat%20` et on rajoute a la fi
 
 
 
-### 2 . The DSI's yellow usb key
+## 2 . The DSI's yellow usb key
 
 Le rubber ducky hack, est donc un fichier intégré a une clef USB qui tape des commandes a notre place, ce qui permet de rapidement pirater une session laissée ouverte.
 
@@ -53,7 +54,7 @@ et ensuite, nous utilisons un site afin de décoder le fichier inject.bin :
 le decodage nous donne l'adresse d'un fichier exe qui est en faite un .txt contenant le flag
 
 
-* 3 . I Lowe runnig
+## 3 . I Lowe runnig
 
 Cette fois si, c'est plutôt simple, il suffit de télécharger l'image et de l'upload sur ce site : 
 `https://incoherency.co.uk/image-steganography/#unhide`
